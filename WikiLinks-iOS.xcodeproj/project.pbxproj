@@ -13,10 +13,11 @@
 		633B85C024AF5F7500896413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633B85BF24AF5F7500896413 /* Assets.xcassets */; };
 		633B85C324AF5F7500896413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633B85C224AF5F7500896413 /* Preview Assets.xcassets */; };
 		633B85C624AF5F7500896413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633B85C424AF5F7500896413 /* LaunchScreen.storyboard */; };
+		63CB6F3824B0B3E9002D2149 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CB6F3724B0B3E9002D2149 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		633B85B624AF5F7300896413 /* WikiLinks - iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WikiLinks - iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		633B85B624AF5F7300896413 /* WikiLinks-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WikiLinks-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		633B85B924AF5F7300896413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		633B85BB24AF5F7300896413 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		633B85BD24AF5F7300896413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		633B85C224AF5F7500896413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		633B85C524AF5F7500896413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		633B85C724AF5F7500896413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CB6F3724B0B3E9002D2149 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,8 @@
 		633B85AD24AF5F7300896413 = {
 			isa = PBXGroup;
 			children = (
-				633B85B824AF5F7300896413 /* WikiLinks - iOS */,
+				63CB6F3724B0B3E9002D2149 /* Default-568h@2x.png */,
+				633B85B824AF5F7300896413 /* WikiLinks-iOS */,
 				633B85B724AF5F7300896413 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +51,12 @@
 		633B85B724AF5F7300896413 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				633B85B624AF5F7300896413 /* WikiLinks - iOS.app */,
+				633B85B624AF5F7300896413 /* WikiLinks-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		633B85B824AF5F7300896413 /* WikiLinks - iOS */ = {
+		633B85B824AF5F7300896413 /* WikiLinks-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				633B85B924AF5F7300896413 /* AppDelegate.swift */,
@@ -64,7 +67,7 @@
 				633B85C724AF5F7500896413 /* Info.plist */,
 				633B85C124AF5F7500896413 /* Preview Content */,
 			);
-			path = "WikiLinks - iOS";
+			path = "WikiLinks-iOS";
 			sourceTree = "<group>";
 		};
 		633B85C124AF5F7500896413 /* Preview Content */ = {
@@ -78,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		633B85B524AF5F7300896413 /* WikiLinks - iOS */ = {
+		633B85B524AF5F7300896413 /* WikiLinks-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633B85CA24AF5F7500896413 /* Build configuration list for PBXNativeTarget "WikiLinks - iOS" */;
+			buildConfigurationList = 633B85CA24AF5F7500896413 /* Build configuration list for PBXNativeTarget "WikiLinks-iOS" */;
 			buildPhases = (
 				633B85B224AF5F7300896413 /* Sources */,
 				633B85B324AF5F7300896413 /* Frameworks */,
@@ -90,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "WikiLinks - iOS";
+			name = "WikiLinks-iOS";
 			productName = "WikiLinks - iOS";
-			productReference = 633B85B624AF5F7300896413 /* WikiLinks - iOS.app */;
+			productReference = 633B85B624AF5F7300896413 /* WikiLinks-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 633B85B124AF5F7300896413 /* Build configuration list for PBXProject "WikiLinks - iOS" */;
+			buildConfigurationList = 633B85B124AF5F7300896413 /* Build configuration list for PBXProject "WikiLinks-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				633B85B524AF5F7300896413 /* WikiLinks - iOS */,
+				633B85B524AF5F7300896413 /* WikiLinks-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				633B85C624AF5F7500896413 /* LaunchScreen.storyboard in Resources */,
+				63CB6F3824B0B3E9002D2149 /* Default-568h@2x.png in Resources */,
 				633B85C324AF5F7500896413 /* Preview Assets.xcassets in Resources */,
 				633B85C024AF5F7500896413 /* Assets.xcassets in Resources */,
 			);
@@ -286,15 +290,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WikiLinks - iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WikiLinks-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ZLC5J2JX99;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "WikiLinks - iOS/Info.plist";
+				INFOPLIST_FILE = "WikiLinks-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.antonstyagun.WikiLinks---iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antonstyagun.WikiLinks-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -308,15 +312,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WikiLinks - iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WikiLinks-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ZLC5J2JX99;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "WikiLinks - iOS/Info.plist";
+				INFOPLIST_FILE = "WikiLinks-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.antonstyagun.WikiLinks---iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antonstyagun.WikiLinks-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -327,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		633B85B124AF5F7300896413 /* Build configuration list for PBXProject "WikiLinks - iOS" */ = {
+		633B85B124AF5F7300896413 /* Build configuration list for PBXProject "WikiLinks-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633B85C824AF5F7500896413 /* Debug */,
@@ -336,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633B85CA24AF5F7500896413 /* Build configuration list for PBXNativeTarget "WikiLinks - iOS" */ = {
+		633B85CA24AF5F7500896413 /* Build configuration list for PBXNativeTarget "WikiLinks-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				633B85CB24AF5F7500896413 /* Debug */,

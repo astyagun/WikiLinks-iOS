@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WikiLinks - iOS.xcodeproj">
+      location = "self:WikiLinks-iOS.xcodeproj">
    </FileRef>
 </Workspace>
